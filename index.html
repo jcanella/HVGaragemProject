@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hvgaragem - Site em construção. Em breve, um novo site com todos os serviços e qualidade que você espera de nós.">
+    <meta name="keywords" content="hvgaragem, oficina, automóveis, reparos, serviços automotivos">
     <title>Site em Construção - hvgaragem</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="icon" type="image/jpeg" href="LOGO_HV_GARAGE.jpeg"> <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="LOGO_HV_GARAGE.jpeg">
     <style>
         .construction-icon {
             font-size: 3rem;
@@ -24,51 +26,65 @@
             margin: 5px;
         }
         .logo-space img {
-            width: 100px; /* Tamanho reduzido */
-            border-radius: 50%; /* Arredondado */
+            width: 100px;
+            border-radius: 50%;
             margin-bottom: 20px;
         }
         .technicians {
             margin-top: 20px;
         }
-        .map-container iframe {
-            border-radius: 15px; /* Arredondado */
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
         }
-			body{
-				background-color: #ebebeb;
-			}
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 15px;
+        }
+        body {
+            background-color: #ebebeb;
+        }
     </style>
 </head>
-<body >
+<body>
     <div class="container text-center mt-5 bg-white rounded">
         <div class="logo-space">
             <img src="LOGO_HV_GARAGE.jpeg" alt="Logo hvgaragem">
         </div>
-
 
         <h1>Site em Construção <i class="fas fa-hammer construction-icon"></i></h1>
         <p>Estamos trabalhando para trazer algo incrível! Enquanto isso, nos acompanhe:</p>
         <div>
             <a href="https://wa.me/+5511949198092" class="btn btn-whatsapp btn-social">
                 <i class="fab fa-whatsapp"></i> WhatsApp
-							</a>
-							<a href="https://www.instagram.com/oficinahvgarage" class="btn btn-instagram btn-social">
-									<i class="fab fa-instagram"></i> Instagram
-							</a>
-							<a href="https://maps.app.goo.gl/9VShwpQFPSDdmLCZ7" target="_blank" class="btn btn-success btn-social">
-									<i class="fas fa-map-marked-alt"></i> Localização
-							</a>
-							</div>
+            </a>
+            <a href="https://www.instagram.com/oficinahvgarage" class="btn btn-instagram btn-social">
+						<i class="fab fa-instagram"></i> Instagram
+						</a>
+						<a href="https://maps.app.goo.gl/uGZwX7iP2Mdjo4u58" target="_blank" class="btn btn-success btn-social">
+						<i class="fas fa-map-marked-alt"></i> Google Maps
+						</a>
+					</div>
+			
+				<div class="technicians">
+					<h2>Técnicos</h2>
+					<p>Paulo - Gustavo - Deofra</p>
+				</div>
 
+				<div class="map-container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d913.2036229658455!2d-46.567716846907395!3d-23.718317787778094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce41006c1977f9%3A0x4b7254e00113a1c4!2sOficina%20HV%20Garage!5e0!3m2!1spt-BR!2sbr!4v1705343341102!5m2!1spt-BR!2sbr" frameborder="0" scrolling="no" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				</div>
 
-							<div class="map-container mt-4">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.8187496586106!2d-46.570896987958726!3d-23.7181657786035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce416234aad763%3A0xc6734737d5e01d19!2sRua%20M%C3%A1rio%20Rocco%2C%20251%20-%20Jardim%20Via%20Anchieta%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009810-190!5e0!3m2!1spt-BR!2sbr!4v1705327804507!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-							</div>
-							</div>
-
-
-							<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-							<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.2/dist/umd/popper.min.js"></script>
-							<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.2/dist/umd/popper.min.js"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	</body>
 	</html>
+						
