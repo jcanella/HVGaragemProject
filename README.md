@@ -37,8 +37,3 @@ Para customizar esta página para seu próprio uso, você pode:
 - Alterar os nomes dos técnicos na seção apropriada.
 - Modificar os estilos CSS para se ajustar à sua identidade visual.
 
-## Suporte
-
-Para suporte, entre em contato com a equipe hvgaragem através dos canais de comunicação forn
-
-Criado com ❤️ pela equipe hvgaragem.
